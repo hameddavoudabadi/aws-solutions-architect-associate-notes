@@ -878,7 +878,12 @@ __AWS Storage Gateways__—
 1. File gateway
 2. Volume gateway: Cached volumes
 3. Volume gateway: Stored volumes
-4. Tape gateway
+4. Tape gateway: Tape Gateway integrates with S3 or other services that need to back up like from EC2 instance.
+It can be configured with S3 Glacier Deep Archive and it is a subcomponent of Storage Gateway.
+
+File Gateway is used to give you gateway access into object storage.
+Volume Gateway Gets you into elastic block store volumes.
+Tape Gateway is the one that allows you to work with Amazon Glacier. 
 
 
 
